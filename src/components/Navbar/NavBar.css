@@ -1,0 +1,10 @@
+#navbar{
+background-color:rgb(52, 59, 59) ;
+justify-content: space-between;
+padding: 0.2em 2em;
+}
+
+#links{
+    margin: 10px;   
+    color: white;
+}

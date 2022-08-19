@@ -1,17 +1,21 @@
-import {HStack,Spacer,Link} from '@chacra-ui/react'
+import {HStack,Spacer,Link, Heading} from '@chakra-ui/react'
 import logo from '../../assets/carrito.png'
+import './NavBar.css'
 const Navbar = () => {
   return (
-    <div>
+    <div id= "navbar" >
         <HStack>
             
             <HStack>
-            <Link>home</Link>
-            <Link>Contact</Link>
-            <Link>Product</Link>
+            <Heading id= "links">Titulo de la tienda</Heading>
+            <Spacer/>
+            <Link id= "links">home</Link>
+            <Link id= "links">Contact</Link>
+            <Link id= "links">Product</Link>
+            <Link id= "links">offers</Link>
              </HStack>
              <Spacer/>
-             <img SRC ={logo} alt=""  width="40px"/>
+             <img SRC ={logo} alt=""  width="30px"/>
         </HStack>
     </div>
 
